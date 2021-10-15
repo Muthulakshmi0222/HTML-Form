@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="HTMLForm.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <title>
+      HTML Form
+  </title>
+</head>
+<body>
+     <h1>Details</h1>
+    <div id="container">
+       <div class="input">First Name:<input class="First_Item" id="Fname" type="text" placeholder="Fname"></div>
+       <div class="input">Last Name: <input id="Lname" type="text" placeholder="Lname"></div>
+       <div class="input">Address: <input id="address" type="text" placeholder="address" ></div>
+       <div class="input">Pincode: <input id="pincode" type="number" placeholder="pincode"></div>
+       <div class="input">Gender: <input id="gender" type="text" placeholder="gender" ></div>
+       <div class="input">State: <input id="state" type="text" placeholder="state" ></div>
+       <div class="input">Country: <input id="country" type="text" placeholder="country" ></div>
+       <div class="Check_item">
+         <div class="input">Briyani<input value="Briyani" name="Check_items" type="checkbox" placeholder="Briyani" onclick="return countCheckBox()"></div>
+         <div class="input">Fired Rice<input value="Fired Rice" name="Check_items" type="checkbox" placeholder="Fired Rice" onclick="return countCheckBox()"></div>
+         <div class="input">Pasta<input value="Pasta" name="Check_items" type="checkbox" placeholder="Pasta" onclick="return countCheckBox()"></div>
+         <div class="input">Pizza<input value="Pizza" name="Check_items" type="checkbox" placeholder="Pizza" onclick="return countCheckBox()"></div>
+         <div class="input">Sandwich<input value="Sandwich" name="Check_items" type="checkbox" placeholder="Sandwich" onclick="return countCheckBox()"></div>
+       </div>
+       <button class="entry" id="entry">Submit</button>
+   </div>
+   <table id="display">
+       <tr>
+           <th>First Name</th>
+           <th>Last Name</th>
+           <th>Address</th>
+           <th>Pincode</th>
+           <th>Gender</th>
+           <th>State</th>
+           <th>Country</th>
+           <th>Check_items</th>
+       </tr>
+   </table>
+
+    <script src="HTMLForm.js"></script>
+    </body>
+    </html>
+    

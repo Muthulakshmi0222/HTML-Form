@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right top, #81024a, #800547, #800844, #7f0b41, #7e0e3e, #7a0d3f, #770c3f, #730b40, #6b0743, #630646, #590648, #4f084a);
+   }
+.input{
+    margin: 50px;
+    font-size:16px ;
+    font-weight: 700;
+    font-family: cursive;
+}
+.First_Item{
+    margin-top: 30px;
+}
+
+.entry{
+  margin-left: 50%;
+  font-size:16px ;
+    font-weight: 700;
+    font-family: cursive;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 50px auto;
+}
+table th,td{
+    padding: 5px;
+    background: #B39CD0;
+    font-size: large;
+}
+td{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Check_item{
+    display: flex;
+}
+h1{
+    text-align: center;
+    color:#00C9A7;
+    margin-top: 10px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
